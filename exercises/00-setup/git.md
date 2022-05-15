@@ -39,7 +39,7 @@ This tutorial assumes you will be working from the command line. If you prefer t
 ## Cloning the MALIS course repository
 The course material can be found from two sources. It is publicly hosted in GitHub [link](https://github.com/malis-course/MALIS) and it can also be found in EURECOM's priavte GitLab repository [link](https://gitlab.eurecom.fr/zuluaga/MALIS).
 
-To get a copy of the repository, you need to clone it. The `git clone` operation allow to create a copy of an existing repository. To do this, open a git console and navigate to the folder where you want to store the local copy of your repository. Then, type the following in the command line:
+To get a copy of the repository, you need to clone it. The `git clone` operation allow to create a copy of an existing repository. To do this, open a git terminal and navigate to the folder where you want to store the local copy of your repository. Then, type the following in the command line:
 
 *Cloning from GitLab*
 ```bash

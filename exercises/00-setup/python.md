@@ -1,4 +1,4 @@
-# Setting up a Python environment
+# Setting up a local Python environment
 
 All the exercises, demos and labs are coded in Python and they are run using Jupyter notebooks. This tutorial describes the necessary steps needed to setup a Python environment in your computer.
 

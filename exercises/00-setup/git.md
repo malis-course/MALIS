@@ -1,6 +1,6 @@
 # Using Git and Git repositories
 
-All the exercises, demos and labs will be on GitHub. GitHub is a website that hosts Git repositories. This tutorial shows you how to set-up Git & GitHub in your local machine.
+All the exercises, demos and labs will be on GitHub and GitLab. These are websites that host Git repositories. This tutorial shows you how to set-up Git in your local machine and how to use an online repository, such as GitHub or GitLab.
 
 ## Definitions
 **Git** is a free and open source distributed version control system designed for tracking changes in any set of files, usually used for coordinating work among programmers collaboratively developing source code during software development.

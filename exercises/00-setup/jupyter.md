@@ -69,7 +69,7 @@ When you open a Notebook document, the associated kernel is automatically launch
 * **Restart and Clear:** Stops the kernel, starts it again, and clears all the existing cell outputs. This may be useful when you have been working for a while and there may be "hidden states" that alter the expected execution of your program
 * **Restart Kernel and Run Up to Selected Cell:** As the previous action followed by the execution up to a specified cell
 * **Restart Kernel and Run All Cells:** Differently from the previous action, here all the code cells are run
-* **Shut Down Kernel:** Shuts down the kerneln.
+* **Shut Down Kernel:** Shuts down the kernel.
 * **Change Kernel:** Selects a different kernel from the list of installed kernels. In the MALIS course context, it may be that you have different versions of Python in use and you want to switch to one of these.
 
 ## Shutting down Jupyter Lab

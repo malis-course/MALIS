@@ -1,6 +1,6 @@
 # Setup
 
-This tutorial is designed to get set and running with Git and your local Python environment. It will give you the basics to start working with Jupyter notebooks.
+This tutorial is designed to get you familiarized with python and some of the core libraries we will be using during the course:
 
 The tutorial contains three parts:
 
@@ -9,3 +9,4 @@ The tutorial contains three parts:
 3. [Working with Jupyter Notebooks and Jupyter Lab](./jupyter.md)
 
 Once you have gone through all the steps of the tutorial, run the [check_setup.ipynb](./check_setup.ipynb) notebook to verify that your environment has been correctly configured.
+

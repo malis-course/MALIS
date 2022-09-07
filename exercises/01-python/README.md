@@ -6,4 +6,4 @@ The tutorial contains three parts:
 
 1. [Python Basics](./python.ipynb)
 2. [NumPy Basics](./numpy.ipynb)
-3. [Panda Basics](./jupyter.md)
+3. [Pandas Basics](./pandas.ipynb)

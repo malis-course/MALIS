@@ -1,11 +1,10 @@
-# Lab 1
+# Lab 1: kNNs, linear regression and logistic regression
 
-This lab session will 
+In this lab session, you will gain practical knowledge on the topics covered over the last three lectures.
 
 The lab is divided into three parts:
 
-1. [K-Nearest Neighbors](./knns/knn.md)
-2. [Setting a local Python environment](./python.md)
-3. [Working with Jupyter Notebooks and Jupyter Lab](./jupyter.md)
+1. [Part 1: K-Nearest Neighbors](./knns/knn.md)
+2. [Setting a local Python environment](./linear/linear.md)
+3. [Working with Jupyter Notebooks and Jupyter Lab](./logistic/logistic.md)
 
-Once you have gone through all the steps of the tutorial, run the [check_setup.ipynb](./check_setup.ipynb) notebook to verify that your environment has been correctly configured.

@@ -10,7 +10,7 @@ The specific case where $k=1$ is denoted the nearest neighbor algorithm. Here $\
 Given a query point $\mathbf{x}_0$ and a training set $\mathcal{D}=(\mathbf{x}_i, y_i)$, $i = 1,..., N$:<br>
 1- Compute the distance $d(\mathbf{x}_0, \mathbf{x}_i)$ between $\mathbf{x}_0$ and all $\mathbf{x}_i \in \mathcal{D}$.<br>
 2- Sort all $ \mathbf{x}_i$ using $d(\mathbf{x}_0, \mathbf{x}_i)$ as sorting criterion. Sort for increasing distance<br>
-3- Select the first $k$ points. This points are denoted the k-neighborhoods of $\mathbf{x}_0$, $N_k(\mathbf{x}_0)$.<br>
+3- Select the first $k$ points. This points are denoted the k-neighborhoods of $\mathbf{x}_0$, $\mathcal{S}_k(\mathbf{x}_0)$. <br>
 4- Assign $\hat{y}$ based on majority voting:
 \begin{equation}
 \hat{y} = h(\mathbf{x}_0) = \arg\max_{y} \sum_{\mathbf{x}_i \in \mathcal{S}_{\mathbf{x}_0}} I(y = y_i)

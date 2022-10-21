@@ -6,7 +6,14 @@ kNN is considered a non-parametric method given that it makes few assumptions ab
 
 The specific case where $k=1$ is denoted the nearest neighbor algorithm. Here $\hat{y}$ is assigned the value $y_{l}$ of the closest point $x_{l}$ to $x$ in the training data. This corresponds to a *Voronoi tessellation* of the training data. 
 
-#### Algorithm (Classification)
+### Learning goals
+
+After running this notebook, you should be able to:
+
+1. Have a better understanding of the mechanisms behind the k nearest neighbor algorithm
+2. Be aware of the problems associated with the curse of dimensionality
+
+### Algorithm (Classification)
 Given a query point $\mathbf{x}_0$ and a training set $\mathcal{D}=(\mathbf{x}_i, y_i)$, $i = 1,..., N$:<br>
 1- Compute the distance $d(\mathbf{x}_0, \mathbf{x}_i)$ between $\mathbf{x}_0$ and all $\mathbf{x}_i \in \mathcal{D}$.<br>
 2- Sort all $ \mathbf{x}_i$ using $d(\mathbf{x}_0, \mathbf{x}_i)$ as sorting criterion. Sort for increasing distance<br>
@@ -16,7 +23,7 @@ Given a query point $\mathbf{x}_0$ and a training set $\mathcal{D}=(\mathbf{x}_i
 \hat{y} = h(\mathbf{x}_0) = \arg\max_{y} \sum_{\mathbf{x}_i \in \mathcal{S}_{\mathbf{x}_0}} I(y = y_i)
 \end{equation}
 
-#### Hands-On
+### Hands-On
 Open the [k-Nearest Neighbors Jupyter notebook](./knn.ipynb) and start working on the required tasks.
 
 

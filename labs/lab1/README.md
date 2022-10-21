@@ -5,6 +5,6 @@ In this lab session, you will gain practical knowledge on the topics covered ove
 The lab is divided into three parts:
 
 1. [Part 1: K-Nearest Neighbors](./knns/knn.md)
-2. [Setting a local Python environment](./linear/linear.md)
+2. [Part 2: Linear Regression](./linear/linear.md)
 3. [Working with Jupyter Notebooks and Jupyter Lab](./logistic/logistic.md)
 

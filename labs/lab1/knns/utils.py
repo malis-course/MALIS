@@ -62,3 +62,42 @@ def plot_results(xx,yy, X, y, y_hat, title):
     plt.ylim(yy.min(), yy.max())
     plt.title(title)
     plt.show()
+    
+def plot_results_in_subplot(xx,yy, X, y, y_hat, title, nrows=1, ncols=1, index=1):
+    '''
+    utilitary function to plot results.
+    It displays the training data with different colours and uses the same colours to differentiate 
+    the different regions defined by the decision boundaries.
+    It displays the graph in a subplot having the specified parameters.
+    '''
+    '''
+    INPUTS :
+    - xx : x-axis coordinates of input testing points
+    - yy : y-axis coordinates of input testing points
+    - X : set of coordinates of the input training points
+    - y : set of labels of the training points
+    - y_hat : set of predicted labels 
+    - title : character string specifying a description of the plot (e.g. how y_hat was obtained)
+    - nrows : subplot number of rows
+    - ncols : subplot number of columns
+    - index : subplot index
+    '''
+    '''
+    OUTPUTS: /
+    '''
+    
+    cmap_light = ListedColormap(['#FFAAAA', '#AAFFAA', '#AAAAFF'])
+    cmap_bold = ListedColormap(['#FF0000', '#00FF00', '#0000FF'])
+
+    subplt = plt.subplot(nrows, ncols, index)
+    
+    subplt.pcolormesh(xx, yy, y_hat, cmap=cmap_light)
+
+    subplt.scatter(X[:, 0], X[:, 1], c=y, cmap=cmap_bold,
+                edgecolor='k', s=20)
+    
+    subplt.set_xlim(xx.min(), xx.max())
+    subplt.set_ylim(yy.min(), yy.max())
+    subplt.set_title(title)
+    subplt.plot()
+    

@@ -1,4 +1,4 @@
-# Part 2: Linear Regression
+# Part 1: Linear Regression
 
 In this part of the lab, you will get familiar with the practical use of the linear regression and you will implement your first learning pipeline. 
 

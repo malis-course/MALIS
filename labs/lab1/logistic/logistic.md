@@ -1,4 +1,4 @@
-# Part 3: Logistic Regression
+# Part 2: Logistic Regression
 
 In this part of the lab, you will get familiar with the practical use of the logistic regression and you will put in place a learning pipeline for logistic regression. 
 

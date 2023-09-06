@@ -2,9 +2,8 @@
 
 In this lab session, you will gain practical knowledge on the topics covered over the last three lectures.
 
-The lab is divided into three parts:
+The lab is divided into two parts:
 
-1. [Part 1: K-Nearest Neighbors](./knns/knn.md)
-2. [Part 2: Linear Regression](./linear/linear.md)
-3. [Part 3: Logistic Regression](./logistic/logistic.md)
+1. [Part 1: Linear Regression](./linear/linear.md)
+2. [Part 2: Logistic Regression](./logistic/logistic.md)
 

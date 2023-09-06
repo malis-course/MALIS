@@ -1,4 +1,4 @@
-# Lab 1: kNNs, linear regression and logistic regression
+# Lab 1: Linear regression and logistic regression
 
 In this lab session, you will gain practical knowledge on the topics covered over the last three lectures.
 

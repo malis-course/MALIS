@@ -1,4 +1,4 @@
-# Lab 2: Gradient Descent and The Perceptron
+# Lab 2: Gradient Descent
 
 In this lab session, you will gain practical knowledge on gradient descent.
 
